@@ -17,7 +17,7 @@ with open(path.join(here, 'README.rst')) as f:
 
 setup(
     name="pytodos",
-    version='1.0.9',
+    version='1.0.10',
     description="a command line lightweight todos tool.",
     long_description=long_description,
     author="chuanwu",
