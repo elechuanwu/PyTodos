@@ -4,6 +4,8 @@ pytodos
 Command line lightweight todos.
 
 .. image:: https://travis-ci.org/chuanwu/PyTodos.svg?branch=master
+.. image:: https://badge.fury.io/py/pytodos.svg
+    :target: https://badge.fury.io/py/pytodos
 
 Install::
 

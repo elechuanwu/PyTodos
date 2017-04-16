@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from setuptools import setup, find_packages
+from setuptools import setup
+from os import path
+
+here = path.abspath(path.dirname(__file__))
+
 
 entry_points = [
     "add=pytodos.todo:add",
@@ -8,9 +12,12 @@ entry_points = [
     "got=pytodos.todo:kill"
 ]
 
+with open(path.join(here, 'README.rst')) as f:
+    long_description = f.read()
+
 setup(
     name="pytodos",
-    version='1.0.8',
+    version='1.0.9',
     description="a command line lightweight todos tool.",
     long_description="",
     author="chuanwu",
