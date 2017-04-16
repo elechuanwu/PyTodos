@@ -11,22 +11,22 @@ Install::
 
 Usage::
 
-     ➜ list
+     ➜  list
      1. 完成联调
      2. 完善文档
      3. 功能测试
      ➜
      ➜
-     ➜ add 啊哈，再添加一个
+     ➜  add 啊哈，再添加一个
      got it.
      ➜
-     ➜ list
+     ➜  list
      1. 完成联调
      2. 完善文档
      3. 功能测试
      4. 啊哈，再添加一个
      ➜
-     ➜ got 1
+     ➜  got 1
      cool!
      Tasks left:
      1. 完善文档
